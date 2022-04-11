@@ -17,7 +17,6 @@ body{
     cursor: pointer;
     padding-left: 10rem;
     display:table-row;
-    font-size: 20px;
     
 }
 
@@ -33,6 +32,7 @@ ul button{
     border-radius: 25px;
     transition: 0.25s;
     cursor: pointer;
+
 }
 
 
@@ -44,7 +44,7 @@ ul button{
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-  height: 80vh;
+  height: 90vh;
 }
 
 #mainSlider .carousel-caption {
@@ -54,7 +54,7 @@ ul button{
 #mainSlider .carousel-caption h2 {
   font-size: 50px;
   margin-bottom: 30px;
-  background-color: rgba(51, 51, 51, 0.384);
+
 }
 
 #mainSlider .carousel-caption p {
@@ -62,7 +62,6 @@ ul button{
   font-weight: 300;
   margin-bottom: 100px;
   color: #FFF;
-
 }
 
 .main-btn {
@@ -93,39 +92,21 @@ ul button{
 
 #quemSomos{ 
   margin-top: 100px;
-  margin-block-end: 50px;
   font-size: 20px;
 }
 
-#quemSomos .container .main-title{
-  margin-top: 100px;
-}
-
-#quemSomos .container .main-title::after{
-    content: "";
-    border-top: 2px solid #333;
-    width: 15%;
-    position: absolute;
-    top: 150px;
-    left: 42.5%;
-}
-
-#plataformas{ 
-  margin-top: 100px;
-  margin-block-end: 50px;
-  font-size: 20px;
-}
-
-#plataformas .container .img_webmob{
-  margin-top: 50px;
-  width: 500px;
-
+.quem {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
 }
 
 
 /* Footer */
 
 #contact-area {
+    margin-top: 100px;
     text-align: center;
   }
 
