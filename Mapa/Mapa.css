@@ -10,22 +10,23 @@
     color: rgb(252, 252, 252);
     list-style-type: none;
     cursor: pointer;
-    padding-left: 2rem;
+    padding-left: 10rem;
     display:table-row;
     
 }
 
 ul button{
-    background: none;
-    display: block;
-    margin: -5px auto;
-    text-align: center;
-    padding: 10px 10px;
-    width: 100px;
-    color: rgb(255, 255, 255);
-    border-radius: 25px;
-    transition: 0.25s;
-    cursor: pointer;
+  background: #65DAF9;
+  color: rgb(255, 255, 255);
+  border-color: #65DAF9;
+  display: block;
+  margin: -5px auto;
+  text-align: center;
+  padding: 10px 10px;
+  width: 120px;
+  border-radius: 25px;
+  transition: 0.25s;
+  cursor: pointer;
 }
 
 /* Footer */
